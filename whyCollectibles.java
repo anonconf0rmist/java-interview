@@ -39,3 +39,9 @@ class CollectionDemo {
         // and hashtable elements using get()
     }
 }
+
+
+//As we can observe, none of these collections(Array, Vector, or Hashtable) implements a standard member access interface, 
+// it was very difficult for programmers to write algorithms that can work for all kinds of Collections.
+ // Another drawback is that most of the ‘Vector’ methods are final, meaning we cannot extend the ’Vector’ class to implement a similar kind of Collection.
+ // Therefore, Java developers decided to come up with a common interface to deal with the above-mentioned problems and introduced the Collection Framework in JDK 1.2 post which both, legacy Vectors and Hashtables were modified to conform to the Collection Framework
